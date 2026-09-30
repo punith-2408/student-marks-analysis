@@ -1,38 +1,36 @@
-# 📊 Student Marks Analysis
+# Student Marks Analysis
 
-A beginner data science project using **Python, pandas, NumPy, and Matplotlib**.
+A Python project that generates sample student marks data and analyzes
+academic performance with summary statistics and visualizations.
 
-## Problem
-Does studying more hours lead to better marks? Which subject do students score best in?
+## Features
+- Generates a synthetic dataset (no download needed)
+- Calculates total, average, and percentage per student
+- Subject-wise averages and score distributions
+- Identifies top performers and pass/fail counts
+- Charts built with Matplotlib
 
-## What this project does
-- Generates a sample dataset of 100 students (study hours + marks in Math, Science, English)
-- Calculates totals, averages, and the top 5 students
-- Finds the correlation between study hours and average marks
-- Saves charts to the `images/` folder
+## Tech Stack
+Python, Pandas, NumPy, Matplotlib
 
-## How to run
+## How to Run
 ```bash
-git clone https://github.com/<your-username>/student-marks-analysis.git
-cd student-marks-analysis
-pip install -r requirements.txt
-python analysis.py
+git clone https://github.com/punith-2408/[repo-name].git
+cd [repo-name]
+pip install pandas numpy matplotlib
+python [your_file].py
 ```
 
-## Results
-- Average marks are similar across subjects (about 63-64)
-- Study hours and average marks show a strong positive correlation (about 0.96)
+## Sample Output
+![Chart](images/chart.png)
 
-![Subject averages](images/subject_averages.png)
-![Hours vs marks](images/hours_vs_marks.png)
+## Key Insights
+- [Insight 1, e.g. Maths had the highest average]
+- [Insight 2]
 
-*Note: the data is synthetic (randomly generated), so this is for learning practice.*
+## Future Improvements
+- Analyze a real dataset from Kaggle
+- Build an interactive dashboard (Streamlit / Power BI)
 
-## What I learned
-- Creating and cleaning DataFrames with pandas
-- Basic statistics: mean, correlation
-- Plotting with Matplotlib
-
-## Next steps
-- Try it on a real dataset from Kaggle
-- Add a Streamlit dashboard
+## Author
+Punith – [LinkedIn](https://www.linkedin.com/in/punith-c-95798b236)
